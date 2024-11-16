@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navbar{
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #9A9A9A;
+    margin-top: 20px;
+}
+
+.txt-sec{
+   display: inline;
+}
+
+.search-input{
+    width:577px;
+    height: 48px;
+
+}
+
