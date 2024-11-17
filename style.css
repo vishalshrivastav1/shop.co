@@ -20,6 +20,11 @@
     padding:30px;
     font-size: 0.85rem;
 }
+.txt-sec p:hover{
+    background-color: aqua;
+    padding:10px 15px;
+}
+
 h1{
     margin-top: 20px;
     margin-right: 40px;
@@ -86,5 +91,67 @@ h1{
 .int{
     font-size: 0.85rem;
     font-family: "ABeeZee", sans-serif;
+}
+
+.container-3{
+    display: flex;
+    color:#FFFFFF;
+    justify-content:space-evenly;
+    font-family: "Abril Fatface", serif;
+    align-items: center;
+    width: 1440px;
+    height:122px;
+    background-color: #000000;
+}
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#000000;
+    font-size: 2rem;
+}
+
+.container-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.box1{
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url(image\ 7.png);
+    background-size: cover;
+}
+
+.box2{
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url("image\ 8.png");
+    background-size: cover;
+
+}
+.box3{
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url("Frame\ 34.png");
+    background-size: cover;
+}
+.box4{
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url("Frame\ 38.png");
+    background-size: cover;
+
 }
 
