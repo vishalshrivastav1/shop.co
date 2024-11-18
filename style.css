@@ -57,7 +57,7 @@ h1{
     height:663px;
     width:1440px;
     background-color: #F2F0F1;
-    background-image: url("Rectangle\ 2.png");
+    background-image: url("img/Rectangle\ 2.png");
     background-size: cover;
 }
 
@@ -124,7 +124,7 @@ h1{
     height: 298px;
     background-color: #F0EEED;
     border-radius: 20px;
-    background-image: url(image\ 7.png);
+    background-image: url(img/image\ 7.png);
     background-size: cover;
 }
 
@@ -133,7 +133,7 @@ h1{
     height: 298px;
     background-color: #F0EEED;
     border-radius: 20px;
-    background-image: url("image\ 8.png");
+    background-image: url("img/image\ 8.png");
     background-size: cover;
 
 }
@@ -142,7 +142,7 @@ h1{
     height: 298px;
     background-color: #F0EEED;
     border-radius: 20px;
-    background-image: url("Frame\ 34.png");
+    background-image: url("img/Frame\ 34.png");
     background-size: cover;
 }
 .box4{
@@ -150,7 +150,7 @@ h1{
     height: 298px;
     background-color: #F0EEED;
     border-radius: 20px;
-    background-image: url("Frame\ 38.png");
+    background-image: url("img/Frame\ 38.png");
     background-size: cover;
 
 }
@@ -182,25 +182,25 @@ h2{
 .pic1{
     width: 150px;
     height: 19px;
-    background-image: url("Frame\ 35\ \(1\).png");
+    background-image: url("img/Frame\ 35\ \(1\).png");
     background-size: cover;
 }
 .pic2{
     width: 150px;
     height: 19px;
-    background-image: url("Frame\ 39.png");
+    background-image: url("img/Frame\ 39.png");
     background-size: cover;
 }
 .pic3{
     width: 150px;
     height: 19px;
-    background-image: url("Frame\ 40.png");
+    background-image: url("img/Frame\ 40.png");
     background-size: cover;
 }
 .pic4{
     width: 150px;
     height: 19px;
-    background-image: url("Frame\ 41.png");
+    background-image: url("img/Frame\ 41.png");
     background-size: cover;
 }
 
