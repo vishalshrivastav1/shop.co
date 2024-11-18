@@ -155,3 +155,69 @@ h1{
 
 }
 
+.texts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    color:#000000; 
+}
+
+h2{
+    font-size: 1rem;
+}
+
+.twenty{
+    color:#FF3333;
+}
+
+
+.pic-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pic1{
+    width: 150px;
+    height: 19px;
+    background-image: url("Frame\ 35\ \(1\).png");
+    background-size: cover;
+}
+.pic2{
+    width: 150px;
+    height: 19px;
+    background-image: url("Frame\ 39.png");
+    background-size: cover;
+}
+.pic3{
+    width: 150px;
+    height: 19px;
+    background-image: url("Frame\ 40.png");
+    background-size: cover;
+}
+.pic4{
+    width: 150px;
+    height: 19px;
+    background-image: url("Frame\ 41.png");
+    background-size: cover;
+}
+
+.pic-texts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    color: #000000;
+}
+
+
+.view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: #ffff;
+}
