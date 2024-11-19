@@ -1,125 +1,170 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     overflow-x: hidden;
 }
 
 
-.container{
+.container {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
+    margin: 10px 0px;
 }
 
-.txt-sec{
+.txt-sec {
     display: flex;
     justify-content: space-evenly;
     font-family: "ABeeZee", sans-serif;
 }
-.txt-sec p{
-    padding:30px;
-    font-size: 0.85rem;
-}
-.txt-sec p:hover{
-    background-color: aqua;
-    padding:10px 15px;
+
+.txt-sec10{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "ABeeZee", sans-serif;
+    display: none;
 }
 
-h1{
-    margin-top: 20px;
+
+.txt-sec p {
+    margin-top: 4px;
+    padding: 10px 18px;
+    font-size: 0.90rem;
+    border-radius: 50px;
+}
+
+.txt-sec p:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
     margin-right: 40px;
 }
 
-.icon1{
+.icon1 {
     height: 24px;
     width: 24px;
-    margin-top: 20px;
 
 }
-.icon2{
-    height: 20px;
-    margin-top: 20px;
-    width: 20px;
+.txt-sec10 {
+    display: none; /* Or any other default styling */
 }
 
-.icon{
-    width:548px;
-    height: 48px;
-    border-radius: 62px;
-    margin-right: 150px;
+.show{
+    visibility: hidden;
+}
+
+.search-input{
+    border-radius: 50px;
+    background-color: #F0F0F0;
+}
+
+.fa-magnifying-glass{
+    color: gray;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.shoppingIcon{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon2 {
+    height: 25px;
+    width: 25px;
+}
+
+.icon {
+    width: 35vw;
+    height: 40px;
+    border: none;
+    background-color: #F0F0F0;
+    margin-left: 10px;
+}
+
+.hamburger{
+    display: flex;
+    color: black;
+    align-items: center;
+    font-size: 1.5rem;
+    display: none;
 }
 
 
-.container-2{
+.container-2 {
     display: flex;
     align-items: center;
-    padding-left:200px;
-    height:663px;
-    width:1440px;
+    padding-left: 200px;
+    height: 663px;
+    width: 1440px;
     background-color: #F2F0F1;
     background-image: url("img/Rectangle\ 2.png");
     background-size: cover;
+  
 }
 
-.find{
-    width:40vw;
-    color:#000000;
+.find {
+    width: 40vw;
+    color: #000000;
     font-family: "Abril Fatface", serif;
     font-size: 60px;
 }
 
-.browse{
-    width:35vw;
+.browse {
+    width: 35vw;
     margin-top: 30px;
 
 
 }
-.btn{
+
+.btn {
     background-color: #000000;
-    color:white;
-    width:210px;
-    height:52px;
+    color: white;
+    width: 210px;
+    height: 52px;
     border-radius: 62px;
     margin-top: 30px;
 
 }
 
-.percent{
+.percent {
     display: flex;
 }
 
-.int{
+.int {
     font-size: 0.85rem;
     font-family: "ABeeZee", sans-serif;
 }
 
-.container-3{
+.container-3 {
     display: flex;
-    color:#FFFFFF;
-    justify-content:space-evenly;
+    color: #FFFFFF;
+    justify-content: space-evenly;
     font-family: "Abril Fatface", serif;
     align-items: center;
     width: 1440px;
-    height:122px;
+    height: 122px;
     background-color: #000000;
 }
 
-.container-4{
+.container-4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#000000;
+    color: #000000;
     font-size: 2rem;
 }
 
-.container-5{
+.container-5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap: 20px;
 }
 
-.box1{
+.box1 {
     width: 295px;
     height: 298px;
     background-color: #F0EEED;
@@ -128,7 +173,7 @@ h1{
     background-size: cover;
 }
 
-.box2{
+.box2 {
     width: 295px;
     height: 298px;
     background-color: #F0EEED;
@@ -137,7 +182,8 @@ h1{
     background-size: cover;
 
 }
-.box3{
+
+.box3 {
     width: 295px;
     height: 298px;
     background-color: #F0EEED;
@@ -145,7 +191,8 @@ h1{
     background-image: url("img/Frame\ 34.png");
     background-size: cover;
 }
-.box4{
+
+.box4 {
     width: 295px;
     height: 298px;
     background-color: #F0EEED;
@@ -155,69 +202,128 @@ h1{
 
 }
 
-.texts{
+.texts {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 20px;
-    color:#000000; 
+    color: #000000;
 }
 
-h2{
+h2 {
     font-size: 1rem;
 }
 
-.twenty{
-    color:#FF3333;
+.twenty {
+    color: #FF3333;
 }
 
 
-.pic-container{
+.pic-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
 }
 
-.pic1{
+.pic1 {
     width: 150px;
     height: 19px;
     background-image: url("img/Frame\ 35\ \(1\).png");
     background-size: cover;
 }
-.pic2{
+
+.pic2 {
     width: 150px;
     height: 19px;
     background-image: url("img/Frame\ 39.png");
     background-size: cover;
 }
-.pic3{
+
+.pic3 {
     width: 150px;
     height: 19px;
     background-image: url("img/Frame\ 40.png");
     background-size: cover;
 }
-.pic4{
+
+.pic4 {
     width: 150px;
     height: 19px;
     background-image: url("img/Frame\ 41.png");
     background-size: cover;
 }
 
-.pic-texts{
+.pic-texts {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-around;
     margin-top: 10px;
     color: #000000;
+    margin-left: 10px;
 }
 
 
-.view{
+
+.view {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     font-size: 1rem;
     background-color: #ffff;
+}
+
+.container-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-top: 150px;
+    font-size: 2rem;
+    font-family: "Abril Fatface", serif;
+}
+
+.container-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.box5 {
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url("img/Frame 32.png");
+    background-size: cover;
+}
+.box6 {
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url("img/Frame 33.png");
+    background-size: cover;
+}
+
+.box7 {
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url("img/Frame 34 (1).png");
+    background-size: cover;
+}
+
+.box8 {
+    width: 295px;
+    height: 298px;
+    background-color: #F0EEED;
+    border-radius: 20px;
+    background-image: url("img/Frame 38 (1).png");
+    background-size: cover;
+
 }

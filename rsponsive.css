@@ -1,0 +1,62 @@
+@media only screen and (max-width:983px){
+    .txt-sec{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .fa-magnifying-glass{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+        font-size: 1rem;
+        align-items: center;
+    }
+
+    .txt-sec10{
+        display: flex;
+        font-family: "ABeeZee", sans-serif;
+        margin-top: 20px;
+        background-color: black;
+        color:white;
+        height:300px;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        display: none;
+    }
+    .txt-sec10 p{
+        padding: 30px;
+    }
+    .txt-sec10 p:hover{
+        background-color: aqua;
+        color: blue;
+    }
+    .txt-sec10.show {
+        display: block; /* Or the style you want when the class is toggled */
+    }
+}
+
+@media only screen and (max-width:1414px){
+    .container-2{
+        height: 463px;
+        width: 1240px;
+        background-color: #F2F0F1;
+    }
+}
+@media only screen and (max-width:1414px){
+    .container-3{
+        width:100vw;
+    }
+}
+
+@media only screen and (max-width:1414px){
+.container-3 h1{
+    font-size: 1.5rem;
+}
+.container-3 h1{
+    width:70vw;
+}
+}
+
