@@ -1,57 +1,64 @@
-@media only screen and (max-width:983px){
-    .txt-sec{
+@media only screen and (max-width:1080px){
+    .box3{
         display: none;
     }
-    .icon{
+    .box4{
         display: none;
-    }
-    .fa-magnifying-glass{
-        display: none;
-    }
-    .hamburger{
-        display: flex;
-        font-size: 1rem;
-        align-items: center;
-    }
-
-    .txt-sec10{
-        display: flex;
-        font-family: "ABeeZee", sans-serif;
-        margin-top: 20px;
-        background-color: black;
-        color:white;
-        height:300px;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-        display: none;
-    }
-    .txt-sec10 p{
-        padding: 30px;
-    }
-    .txt-sec10 p:hover{
-        background-color: aqua;
-        color: blue;
-    }
-    .txt-sec10.show {
-        display: block; /* Or the style you want when the class is toggled */
     }
 }
 
-@media only screen and (max-width:1339px){
-    .container-2{
-        height: 463px;
-        width: 90vw;
-        background-color:  #F0F0F0;
+@media only screen and (max-width:1080px){
+   .box1{
+    width: 30%px;
+    height: 298px;
+   }
+   .box2{
+    width: 30%px;
+    height: 298px;
+   }
+}
+
+@media only screen and (max-width:1080px){
+    .container-5{
+        width: 100vw;
+        height:30vh;
     }
 }
-@media only screen and (max-width:1212px){
-.container-2{
-    height: 400px;
-    width: 90vw;
+@media only screen and (max-width:827px){
+    .box1{
+        height:35vh;
+        width:60%;
+    }
+    .box2{
+        height:35vh;
+        width:60%;
+    }
+
+}
+
+@media only screen and (max-width:489px){
+    .box1{
+        height:200px;
+        width:180px;
+    }
+    .box2{
+        height:200px;
+        width:180px;
+    }
+
+}
+
+@media only screen and (max-width:395px){
+    .box1{
+        width: 120vw;
+    }
+    .box2{
+        width: 120vw;
+    }
 
 }
 
 
-}
+
+
 
