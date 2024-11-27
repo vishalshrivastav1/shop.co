@@ -1,59 +1,48 @@
-@media only screen and (max-width:1080px){
-    .box3{
-        display: none;
+@media only screen and (max-width:1030px){
+    .find{
+        font-size: 3.5rem;
     }
-    .box4{
-        display: none;
+
+    .browse{
+        font-size: 1.1rem;
+        width: 70vw;
+    }
+
+    .btn {
+        font-size: .8rem;
+        margin-top: 30px;
+        padding: 10px 60px;
     }
 }
 
-@media only screen and (max-width:1080px){
-   .box1{
-    width: 30%px;
-    height: 298px;
-   }
-   .box2{
-    width: 30%px;
-    height: 298px;
-   }
+@media only screen and (max-width:900px){
+    .find{
+        font-size: 3rem;
+        width: 70vw;
+    }
+
+    .browse{
+        font-size: 1.1rem;
+        width: 80vw;
+    }
+
+    .btn{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
-@media only screen and (max-width:1080px){
-    .container-5{
+@media only screen and (max-width:500px){
+    .find{
+        font-size: 2.2rem;
         width: 100vw;
-        height:30vh;
-    }
-}
-@media only screen and (max-width:827px){
-    .box1{
-        height:35vh;
-        width:60%;
-    }
-    .box2{
-        height:35vh;
-        width:60%;
+        margin: 0px 15px;
     }
 
-}
-
-@media only screen and (max-width:489px){
-    .box1{
-        height:200px;
-        width:180px;
-    }
-    .box2{
-        height:200px;
-        width:180px;
-    }
-
-}
-
-@media only screen and (max-width:395px){
-    .box1{
-        width: 120vw;
-    }
-    .box2{
-        width: 120vw;
+    .browse{
+        font-size: 0.9rem;
+        width: 100vw;
+        margin: 10px 15px;
     }
 
 }
